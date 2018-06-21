@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    
+    <link rel = "stylesheet" href="./css/style.css">
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- lettering -->
+    <script src = "./js/jquery.lettering.min.js"></script>
+    
+    <!-- textillate -->
+    <script src="./js/jquery.textillate.js"></script>
+    
+    <script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.13/jquery.popupoverlay.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            
+            // Initialize the plugin
+            $('#my_popup').popup({
+                color: 'white',
+                opacity: 1,
+                transition: '0.3s',
+                scrolllock: true
+            });
+            
+            $('#my_popup_desarrollo').popup({
+                color: 'white',
+                opacity: 1,
+                transition: '0.3s',
+                scrolllock: true
+            });
+            
+            $('#my_popup_conclusion').popup({
+                color: 'white',
+                opacity: 1,
+                transition: '0.3s',
+                scrolllock: true
+            });
+            
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function(){
+            $(".btn-primary").click(function(){
+                $('#cuatro').addClass('animated flash infinite');
+                $("#tres").textillate();
+            });
+        }); 
+    </script>
+    
+    
+    <title>Hello, world!</title>
+</head>
+
+<body class="bg-secondary">
+    <!--    <h1>Hello, world!</h1>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <t1 id = "uno">incididunt ut labore</t1> et dolore magna aliqua. Ut enim ad <t3 id="tres">minim</t3> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis <t1 id = "uno">aute irure dolor</t1> in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <t2 id = "dos">cupidatat non proident</t2>, sunt in culpa qui officia deserunt <t4 id = "cuatro">mollit anim</t4> id est laborum."</p> 
+        <button type="button" class="btn btn-primary">Link</button>
+        
+        
+        
+        
+        
+    -->
+    <div class="container ">
+        <div class="row">
+            
+            <div class="col-12 w-100">
+                
+                <div class="d-flex justify-content-center bg-white align-items-center my-2">
+                    <div class="container px-5">
+                        <div class="row">
+                            <div class="h-25 col-xs-0 col-md-1 col-lg-2 col-xl-2 align-self-start"></div>
+                            <div class="h-100 w-100 col-xs-12 col-md-10 col-lg-8 col-xl-8 align-self-center">
+                                <div class="h-100 w-100 col-12 align-self-center">
+                                    <h1 class=" text-center">Lorem Ipsum</h1>
+                                </div>
+                                <p id="intro" class="text-center text-blue_3 font-size-16">
+                                    
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin placerat justo, eu feugiat tellus consectetur in. Nam molestie sapien id ligula tempor pharetra. Vestibulum convallis dolor tellus, et tincidunt tortor laoreet eget. Suspendisse vel diam mollis, facilisis augue sed, aliquam nisl. Praesent eget ligula convallis, condimentum enim iaculis, porttitor dui. Proin feugiat lectus orci. 
+                                </p>
+                                <p id="main" class="text-center text-blue_3 font-size-16">
+                                    Pellentesque nisl enim, gravida in risus eu, egestas maximus risus. Nunc eu scelerisque turpis. Nam ullamcorper arcu quis felis cursus, at rhoncus lorem bibendum. Vestibulum dictum malesuada libero sed venenatis. Ut ultrices eleifend iaculis. Pellentesque consequat, quam sagittis interdum condimentum, augue nisi ultrices mi, vitae bibendum augue felis id lorem. Curabitur eu nisi eu nisl aliquet auctor. 
+                                </p>
+                                <p id="final" class="text-center text-blue_3 font-size-16">
+                                    Proin tristique augue nisi. Nullam hendrerit velit faucibus, tincidunt lacus a, mattis dolor. Nam facilisis mi nec nisi molestie tincidunt. Aliquam erat volutpat. Suspendisse vel dui at augue volutpat feugiat. Suspendisse vulputate pellentesque lacinia. Nunc iaculis lorem ut lorem cursus, sit amet lobortis sem congue. 
+                                </p>
+                                <div class="text-center">                                    
+                                    <button type="submit" class="btn my_popup_open rounded-2 font-size-19 mb-5 px-5">Intro</button>
+                                    
+                                    <div id="my_popup">
+                                        
+                                        <div class="container">
+                                            <div class= "row">
+                                                <div class="col"></div>
+                                                <div class= "col-8">
+                                                    
+                                                    <p id="intro" class="col-12 text-center text-blue_3 font-size-16">
+                                                        
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin placerat justo, eu feugiat tellus consectetur in. Nam molestie sapien id ligula tempor pharetra. Vestibulum convallis dolor tellus, et tincidunt tortor laoreet eget. Suspendisse vel diam mollis, facilisis augue sed, aliquam nisl. Praesent eget ligula convallis, condimentum enim iaculis, porttitor dui. Proin feugiat lectus orci. 
+                                                    </p>
+                                                    
+                                                    <!-- Add an optional button to close the popup -->
+                                                    <button class="my_popup_close btn rounded-2 font-size-19 mb-5 px-5">Close</button>
+                                                </div>
+                                                <div class="col"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn my_popup_desarrollo_open rounded-2 font-size-19 mb-5 px-5">Desarrollo</button>
+                                    
+                                    <div id="my_popup_desarrollo">
+                                        <div class="container">
+                                            <div class= "row">
+                                                <div class="col"></div>
+                                                <div class= "col-8">
+                                                    
+                                                    <p id="main" class="text-center text-blue_3 font-size-16">
+                                                        Pellentesque nisl enim, gravida in risus eu, egestas maximus risus. Nunc eu scelerisque turpis. Nam ullamcorper arcu quis felis cursus, at rhoncus lorem bibendum. Vestibulum dictum malesuada libero sed venenatis. Ut ultrices eleifend iaculis. Pellentesque consequat, quam sagittis interdum condimentum, augue nisi ultrices mi, vitae bibendum augue felis id lorem. Curabitur eu nisi eu nisl aliquet auctor. 
+                                                    </p>
+                                                    
+                                                    <!-- Add an optional button to close the popup -->
+                                                    <button class="my_popup_desarrollo_close btn rounded-2 font-size-19 mb-5 px-5">Close</button>
+                                                </div>
+                                                <div class="col"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <button type="submit" class="btn my_popup_conclusion_open rounded-2 font-size-19 mb-5 px-5">Conclusion</button>
+
+                                    <div id="my_popup_conclusion">
+                                            <div class="container">
+                                                <div class= "row">
+                                                    <div class="col"></div>
+                                                    <div class= "col-8">
+                                                        
+                                                            <p id="final" class="text-center text-blue_3 font-size-16">
+                                                                    Proin tristique augue nisi. Nullam hendrerit velit faucibus, tincidunt lacus a, mattis dolor. Nam facilisis mi nec nisi molestie tincidunt. Aliquam erat volutpat. Suspendisse vel dui at augue volutpat feugiat. Suspendisse vulputate pellentesque lacinia. Nunc iaculis lorem ut lorem cursus, sit amet lobortis sem congue. 
+                                                                </p>
+                                                        
+                                                        <!-- Add an optional button to close the popup -->
+                                                        <button class="my_popup_conclusion_close btn rounded-2 font-size-19 mb-5 px-5">Close</button>
+                                                    </div>
+                                                    <div class="col"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                
+                            </div>
+                            <div class="h-25 col-xs-0 col-md-1 col-lg-2 col-xl-2 align-self-end"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    
+</body>
+</html>
+

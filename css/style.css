@@ -1,0 +1,20 @@
+#my_popup {
+    transform: scale(0.8);
+  }
+  .popup_visible #my_popup {
+    transform: scale(1);
+  }
+
+  #my_popup_desarrollo {
+    transform: scale(0.8);
+  }
+  .popup_visible #my_popup_desarrollo {
+    transform: scale(1);
+  }
+
+  #my_popup_conclusion {
+    transform: scale(0.8);
+  }
+  .popup_visible #my_popup_conclusion {
+    transform: scale(1);
+  }
